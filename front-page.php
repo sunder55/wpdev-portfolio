@@ -8,8 +8,8 @@
             <div class="hero-layout">
                 <div>
                     <h1 class="hero-title"><?php _e('Hi, I\'m Rukmagat Kandel', 'wpdev-portfolio'); ?></h1>
-                    <div class="hero-sub"><?php _e('I build WordPress systems that scale.', 'wpdev-portfolio'); ?></div>
-                    <div class="hero-desc"><?php _e('Custom themes, headless architectures, and plugin ecosystems for agencies and product teams.', 'wpdev-portfolio'); ?></div>
+                    <div class="hero-sub"><?php _e('WordPress Developer', 'wpdev-portfolio'); ?></div>
+                    <div class="hero-desc"><?php _e('I build custom WordPress themes, plugins, and systems that scale — for agencies and product teams.', 'wpdev-portfolio'); ?></div>
                     <div class="btn-row">
                         <a href="<?php echo esc_url(home_url('/projects/')); ?>" class="btn btn--outline"><?php _e('View my work', 'wpdev-portfolio'); ?></a>
                         <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn--primary"><?php _e('Get in touch', 'wpdev-portfolio'); ?></a>
@@ -53,7 +53,7 @@
             <div class="section-header">
                 <div class="eyebrow"><?php _e('Portfolio', 'wpdev-portfolio'); ?></div>
                 <h2><?php _e('Selected projects', 'wpdev-portfolio'); ?></h2>
-                <p><?php _e('Production WordPress work spanning custom themes, plugins, and editorial tooling.', 'wpdev-portfolio'); ?></p>
+                <p><?php _e('WordPress development work spanning custom themes, plugins, and editorial tooling.', 'wpdev-portfolio'); ?></p>
             </div>
 
             <div class="projects-grid" id="projects-grid">
@@ -88,7 +88,7 @@
             <div class="about-layout">
                 <div class="avatar">RK</div>
                 <div class="about-text">
-                    <h2><?php _e('WordPress specialist with a product mindset.', 'wpdev-portfolio'); ?></h2>
+                    <h2><?php _e('WordPress developer with a product mindset.', 'wpdev-portfolio'); ?></h2>
                     <p><?php _e('I partner with founders, agencies, and product teams to turn complex content needs into reliable, scalable WordPress systems. Based in Kathmandu, available remote worldwide.', 'wpdev-portfolio'); ?></p>
                     <a href="<?php echo esc_url(home_url('/about/')); ?>" class="about-link"><?php _e('More about me', 'wpdev-portfolio'); ?> &rarr;</a>
                 </div>
@@ -99,8 +99,8 @@
     <!-- CTA -->
     <section class="cta-strip">
         <div class="eyebrow"><?php _e('Available for work', 'wpdev-portfolio'); ?></div>
-        <h2><?php _e('Got a WordPress project?', 'wpdev-portfolio'); ?></h2>
-        <p><?php _e('Freelance projects, plugin builds, performance audits, and long-term maintenance contracts.', 'wpdev-portfolio'); ?></p>
+        <h2><?php _e('Need a WordPress developer?', 'wpdev-portfolio'); ?></h2>
+        <p><?php _e('Freelance projects, custom plugin builds, performance audits, and long-term maintenance contracts.', 'wpdev-portfolio'); ?></p>
         <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="cta-btn"><?php _e('Let\'s build something', 'wpdev-portfolio'); ?></a>
     </section>
 

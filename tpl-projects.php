@@ -9,7 +9,7 @@ get_header(); ?>
         <div class="section-header">
             <div class="eyebrow"><?php _e('Portfolio', 'wpdev-portfolio'); ?></div>
             <h1><?php _e('All projects', 'wpdev-portfolio'); ?></h1>
-            <p><?php _e('A curated collection of WordPress builds, plugins, and solutions.', 'wpdev-portfolio'); ?></p>
+            <p><?php _e('WordPress development projects by Rukmagat Kandel — custom themes, plugins, and solutions.', 'wpdev-portfolio'); ?></p>
         </div>
 
         <div class="project-filters" id="project-filters" style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:20px;">

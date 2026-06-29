@@ -6,7 +6,7 @@
             <div class="section-header">
                 <div class="eyebrow"><?php _e('Portfolio', 'wpdev-portfolio'); ?></div>
                 <h1><?php _e('All Projects', 'wpdev-portfolio'); ?></h1>
-                <p><?php _e('A curated collection of WordPress builds, plugins, and solutions.', 'wpdev-portfolio'); ?></p>
+                <p><?php _e('WordPress development projects by Rukmagat Kandel — custom themes, plugins, and solutions.', 'wpdev-portfolio'); ?></p>
             </div>
             <div class="projects-grid">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

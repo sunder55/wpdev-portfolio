@@ -10,8 +10,8 @@ get_header(); ?>
         <div class="about-layout">
             <div class="avatar">RK</div>
             <div class="about-text">
-                <h2><?php _e('WordPress specialist with a product mindset.', 'wpdev-portfolio'); ?></h2>
-                <p><?php _e('I partner with founders, agencies, and product teams to turn complex content needs into reliable, scalable WordPress systems. My work blends custom architecture, editor-friendly tooling, and thoughtful performance practices.', 'wpdev-portfolio'); ?></p>
+                <h2><?php _e('WordPress developer with a product mindset.', 'wpdev-portfolio'); ?></h2>
+                <p><?php _e('I\'m a WordPress developer who partners with founders, agencies, and product teams to turn complex content needs into reliable, scalable WordPress systems. My work blends custom architecture, editor-friendly tooling, and thoughtful performance practices.', 'wpdev-portfolio'); ?></p>
                 <p><?php _e('Typical engagements include custom post types, block development, plugin ecosystems, REST API integrations, and performance-focused migrations.', 'wpdev-portfolio'); ?></p>
                 <p><?php _e('Based in Kathmandu, available remote worldwide.', 'wpdev-portfolio'); ?></p>
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn--primary"><?php _e('Let\'s work together', 'wpdev-portfolio'); ?></a>
@@ -21,7 +21,7 @@ get_header(); ?>
         <div style="margin-top:48px; padding-top:32px; border-top:0.5px solid var(--border);">
             <div class="section-header">
                 <div class="eyebrow"><?php _e('Experience', 'wpdev-portfolio'); ?></div>
-                <h2><?php _e('Skills &amp; expertise', 'wpdev-portfolio'); ?></h2>
+                <h2><?php _e('WordPress development skills &amp; expertise', 'wpdev-portfolio'); ?></h2>
             </div>
             <div style="display:flex; gap:8px; flex-wrap:wrap;">
                 <span class="skill-tag">PHP</span>

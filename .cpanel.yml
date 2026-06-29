@@ -2,8 +2,14 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/supremeb/rukmagatkandel.com.np/wp-content/themes/wpdev-portfolio/
+    # Root-level files (list each one)
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp functions.php $DEPLOYPATH
+    - /bin/cp screenshot.png $DEPLOYPATH
+    # Add any other root-level files here (header.php, footer.php, single.php, etc.)
+    # Directories (use -R)
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R inc $DEPLOYPATH
     - /bin/cp -R template-parts $DEPLOYPATH
-    - /bin/cp *.php $DEPLOYPATH
+    - /bin/cp -R languages $DEPLOYPATH

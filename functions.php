@@ -12,8 +12,3 @@ function wpdev_get_field($field_name, $post_id = null)
     $value = get_post_meta($post_id, $field_name, true);
     return $value !== '' ? $value : null;
 }
-
-
-add_action('wp_footer', function () {
-    var_dump('dkdkdkdkdkdk');
-});

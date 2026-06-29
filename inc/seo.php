@@ -36,7 +36,7 @@ function wpdev_seo_meta_tags()
         $image = get_the_post_thumbnail_url(null, 'large');
     }
     if (empty($image)) {
-        $image = get_template_directory_uri() . '/screenshot.png';
+        $image = get_template_directory_uri() . '/image.png';
     }
 
     echo "\t<meta name=\"description\" content=\"" . esc_attr($desc) . "\">\n";

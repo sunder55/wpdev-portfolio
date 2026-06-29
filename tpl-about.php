@@ -33,9 +33,7 @@ get_header(); ?>
                 <span class="skill-tag">JavaScript</span>
                 <span class="skill-tag">Block Editor</span>
                 <span class="skill-tag">React</span>
-                <span class="skill-tag">TypeScript</span>
-                <span class="skill-tag">Docker</span>
-                <span class="skill-tag">CI/CD</span>
+
             </div>
         </div>
     </div>

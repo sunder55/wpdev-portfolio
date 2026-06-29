@@ -1,7 +1,7 @@
 <article class="project-card" data-types="<?php
-$types = get_the_terms(get_the_ID(), 'project_type');
-echo $types ? esc_attr(implode(',', wp_list_pluck($types, 'slug'))) : 'general';
-?>">
+                                            $types = get_the_terms(get_the_ID(), 'project_type');
+                                            echo $types ? esc_attr(implode(',', wp_list_pluck($types, 'slug'))) : 'general';
+                                            ?>">
     <a href="<?php the_permalink(); ?>" class="project-card__image">
         <?php if (has_post_thumbnail()) : ?>
             <?php the_post_thumbnail('wpdev-card'); ?>

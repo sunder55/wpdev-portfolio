@@ -35,6 +35,7 @@
                 <div class="skills-strip__inner">
                     <span class="skill-tag">PHP</span>
                     <span class="skill-tag">WordPress</span>
+                    <span class="skill-tag">WooCommerce</span>
                     <span class="skill-tag">MySQL</span>
                     <span class="skill-tag">REST API</span>
                     <span class="skill-tag">ACF</span>

@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/supremeb/rukmagatkandel.com.np/wp-content/themes/wpdev-portfolio/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R *.php $DEPLOYPATH
+    - /bin/cp -R *.css $DEPLOYPATH
+    - /bin/cp -R *.js $DEPLOYPATH
+    - /bin/cp -R inc $DEPLOYPATH
+    - /bin/cp -R template-parts $DEPLOYPATH
+    - /bin/cp -R languages $DEPLOYPATH

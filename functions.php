@@ -14,5 +14,5 @@ function wpdev_get_field($field_name, $post_id = null)
 }
 
 add_action('wp_footer', function () {
-    var_dump('projectss');
+    var_dump('ssssss');
 });
